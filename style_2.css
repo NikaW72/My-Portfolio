@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+
+* {
+    font-family: 'Be Vietnam Pro';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    background-size: cover;
+    background-position: center;
+}
+
+.introduction2 {
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    font-size: 35px;
+}
+
+.span-developer {
+    color: #3ec8ff;
+}
+
+.about-text {
+    height: 950px;
+    width: 450px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.outer-line {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 14, 14);
+}
+
+.line {
+    border: 7px solid white;
+    width: 90%;
+    box-shadow: 0px 0px 15px white, 0px 0px 25px rgb(167, 167, 167);
+}
+
+.lets {
+    margin-top: 50px;
+    width: 325px;
+    border-radius: 45px;
+    height: 70px;
+    border: 3px solid #2ac3ff;
+    box-shadow: 0px 0px 15px #2ac3ff;
+    font-weight: 900;
+    font-size: 27px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-left: 55px;
+}
+
+.lets:hover span {
+    display: none;
+}
+
+.lets:hover {
+    background-color: rgb(190, 190, 190);
+    border: 3px solid #1f83aa;
+    box-shadow: 0px 0px 12px #1f83aa;
+    font-size: 30px;
+}
+
+.lets:hover:before {
+    content: "Talk";
+}
+
+.about {
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    padding: 100px 50px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 800px;
+    transition: all 0.2s ease-in-out;
+}
+
+#logo:hover {
+    color: #2ac3ff;
+}
+
+.title-span {
+    color: #2ac3ff;
+    transition: all 0.2s ease-in-out;
+}
+
+.title-span:hover {
+    color: white;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.link {
+    font-size: 15px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: #00b7ff;
+    font-size: 19px;
+}
+
+.introduction {
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.introduction:hover {
+    color: #00b7ff;
+}
+
+#color {
+    color: #768ac0;
+}
+
+#color:hover {
+    color: white;
+}
+
+.name {
+    color: #00b7ff;
+    transition: all 0.2s ease-in-out;
+    margin: 20px 0px 20px;
+}
+
+#future {
+    margin-bottom: 50px;
+}
+
+.name:hover {
+    color: white;
+}
+
+.newslatter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    outline: none;
+}
+
+.newslatter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    
+}
+
+input {
+    border: 3px solid rgb(84, 95, 252);
+    border-radius: 25px;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px rgb(84, 95, 252);
+}
+
+.start {
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0), 0px 0px 15px rgb(90, 90, 90);
+    top: 10px;
+    right: 6px;
+    background-color: #2ac3ff;
+    color: white;
+}
+
+.start:hover {
+    background-color: rgb(3, 91, 255);
+    cursor: pointer;
+}
+
+.about-me {
+    color: white;
+}
+
+.about-me2 {
+    color: rgb(200, 247, 255);
+}
+
+.introduction2 {
+    color: white;
+}
+
+.span2 {
+    font-weight: 900;
+}
+
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 10px white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-direction: row;
+    width: 22%; 
+    padding: 20px;
+
+}
+
+.pra p {
+    color: rgb(163, 255, 247);
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.card {
+    height: 455px;
+    width: 425px;
+    padding: 20px 35px;
+    background: #2b2b2b;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+#box-1 {
+    padding-left: 0px;
+    margin-left: 280px;
+}
+
+#box-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+#box-3 {
+    margin-right: 100px;
+}
+
+.card h5 {
+    color: rgb(75, 75, 255);
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid #009edd;
+    padding: 15px 35px;
+    color: rgb(66, 53, 255);
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+}
+
+.card a:hover {
+    box-shadow: -10px 10px 10px black;
+    border: none;
+    height: 60px;
+    width: 115px;
+    font-size: 20px;
+}
+
+#html {
+    color: rgb(223, 100, 0);
+}
+
+#html-icon {
+    height: 50px;
+    width: 50px;
+}
+
+#css-icon {
+    height: 65px;
+    width: 70px;
+    margin-top: -13px;
+}
+
+#button-2:hover {
+    box-shadow: 0px 15px 10px black;
+}
+
+#button-3:hover {
+    box-shadow: 10px 10px 10px black;
+}
+
+#css {
+    color: rgb(0,101,244);
+}
+
+#javascript-icon {
+    height: 50px;
+    width: 55px; 
+    margin-top: -5px;
+}
+
+#html-text {
+    color: rgb(255, 158, 78);
+}
+
+#html-rate {
+    margin-top: -35px;
+    color: rgb(255, 81, 0);
+    font-weight: 900;
+}
+
+.html-span {
+    color: rgb(255, 115, 0);
+    font-weight: 900;
+}
+
+.css-span {
+    color: rgb(0, 47, 255);
+    font-weight: 900;
+}
+
+#css-text {
+    color: rgb(28, 172, 255);
+}
+
+#css-rate {
+    color: rgb(22, 37, 255);
+    font-weight: 900;
+    margin-top: -37px;
+}
+
+#javascript {
+    color: rgb(254,217,61);
+}
+
+.js-span {
+    color: rgb(252, 255, 68);
+    font-weight: 900;
+}
+
+#js-text {
+    color: rgb(254, 255, 172);
+}
+
+#js-rate {
+    color: rgb(255, 217, 0);
+    font-weight: 900;
+    margin-top: -55px;
+}
+
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+    background: linear-gradient(to right, #a8ff78, #78ffd6);
+    color: black;
+    border: none;
+    width: 250px;
+    height: 75px;
+    text-decoration: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(0, 173, 58);
+}
+
+.contact-me .button-two:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, #2b411f, #1e4136);
+    box-shadow: 10px 10px 15px black;
+    height: 85px;
+    width: 275px;
+    color: rgb(161, 255, 192);
+    font-size: 30px;
+}
+
+.contact-me .button-two:active {
+    cursor: default;
+    background: linear-gradient(to left, #1c2b14, #122720);
+    box-shadow: 10px 10px 15px black;
+    height: 75px;
+    width: 250px;
+    color: rgb(208, 255, 224);
+    font-size: 28px;
+}
+
+.contact-me .i-guess {
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.507);
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00b7ff;
+    border-radius: 50%;
+    margin: 22px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 3px solid #00b7ff;
+}
+
+.social a:hover {
+    transition: all 0.35s ease-in-out;   
+    background: transparent;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.end {
+    color: #00b7ff;
+    bottom: 35px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.secret {
+    color: #101010;
+    margin-left: 30px;
+}
